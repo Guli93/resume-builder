@@ -196,3 +196,12 @@ button:hover{
     background-color: #fff;
     columns: var(--resume-p);
 }
+
+@media only screen and (max-width: 600px) {
+    #formContainer {
+      width: 95vw;
+    }
+    #resume{
+        width: 95vw;
+    }
+  }
